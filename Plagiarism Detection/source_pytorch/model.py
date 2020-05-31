@@ -27,7 +27,11 @@ class BinaryClassifier(nn.Module):
         super(BinaryClassifier, self).__init__()
 
         # define any initial layers, here
+        self.layer1 = nn.Linear(input_features, hidden_dim)
+        self.layer2 = nn.Linear(hidden_dim, output_dim)
         
+        # Dropout module with 0.25 drop probability
+        self.dropout = nn.Dropout(p=0.25)
 
     
     ## TODO: Define the feedforward behavior of the network
@@ -39,6 +43,7 @@ class BinaryClassifier(nn.Module):
         """
         
         # define the feedforward behavior
-        
+        x = self.dropout(F.relu(self.layer1(x)))
+        x = F.sigmoid(self.layer2(x))
         return x
     
