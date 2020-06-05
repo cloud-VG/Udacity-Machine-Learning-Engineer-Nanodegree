@@ -22,3 +22,12 @@ Sentiment Analysis Web App is a notebook and collection of Python files to be co
 ![project icon](imgs/p2_icon.png)
 
 In this project, we will be tasked with building a plagiarism detector that examines a text file and performs binary classification; labeling that file as either plagiarized or not, depending on how similar that text file is to a provided source text. Detecting plagiarism is an active area of research; the task is non-trivial and the differences between paraphrased answers and original work are often not so obvious.
+
+## Project-3: [Dog Breed Classifier CNN (Capstone)](https://github.com/cloud-VG/Udacity-Machine-Learning-Engineer-Nanodegree/tree/master/Dog%20Breed%20Classifier%20CNN)
+
+![project icon](imgs/p3_icon.png)
+
+The goal of the project is to build a machine learning model that can be used within web app to process real-world, user-supplied images. The algorithm has to perform two tasks:
+
+* Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.
+* If supplied an image of a human, the code will identify the resembling dog breed.
