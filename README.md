@@ -31,3 +31,6 @@ The goal of the project is to build a machine learning model that can be used wi
 
 * Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.
 * If supplied an image of a human, the code will identify the resembling dog breed.
+
+
+_Images credits: [Flaticon](https://www.flaticon.com/)_
